@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form2</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="form2.css">
+</head>
+<body>
+	<div class="main">
+		
+		<div class="right">
+			<h5>Book Place for your campsite!</h5>
+			<div class="container" id="container">
+			<form id="myform">
+				<div class="form-group">
+				<input id="input1" type="text" name="" placeholder="Your Name" required pattern="[A-Za-z]{1,10}" title="alphabets only cannot be longer than 10">
+				</div>
+				<div class="form-group">
+				<input type="text" id="input2" name="" placeholder="Phonenumber" required pattern="[6-9]{1}[0-9]{9}" title="should start with 6-9 and remaing 9 digit with 0-9">
+			    </div>
+			    <div class="form-group">
+			    <!-- <label for="time" id="time">Time</label> -->
+				<input id="input3" type="time" name="time" required>
+			    </div>
+			    <div class="form-group">
+			    <select id="Dropdown">
+	             <option>FOOD</option>
+	             <option>chicken</option>
+	             <option>biriyani</option>
+	             <option>tandoori</option>	
+	             </select>
+			    </div>
+			    <div class="form-group">
+			    	<h6>Select your camping space</h6><br>
+			    	<div>
+			    	<span class="span1">2</span>
+			    	<span class="span2">4Person</span>
+			    	<span class="span3">6</span>
+			    	<span class="span4">8</span>
+			    	<span class="span5">10</span>
+                   </div>
+			    </div><br>
+			    <input type="submit" value="BookNow"onclick="myFunction()" id="button" required>
+
+			</form>
+			</div>
+			
+			<p><a href="">Verify your booking info from your phone</a></p>
+			
+		</div>
+
+		<div class="left">
+			<img src="https://farm9.staticflickr.com/8442/7962474612_bf2baf67c0.jpg" id="image">
+		</div> 
+
+
+	</div>
+	<script src="form2.js">
+</script>
+
+</body>
+</html>

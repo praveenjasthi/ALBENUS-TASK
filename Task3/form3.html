@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form3</title>
+    
+    <!-- thought of doing the validations through javascript but unable resolve the error and because of time constraint did the validations with html -->
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="form3.css">
+</head>
+<body>
+	<div class="main">
+		
+		<div class="right">
+			<h1>REGISTER FORM</h1>
+			<div class="container" id="container">
+			<form id="myform">
+		        <div class="row">
+		        	<div class="col-lg-6 col-md-6">
+		        	<label id="label">FirstName</label><br>
+		        	<input id="firstname" type="text" required pattern="[A-Za-z]{1,10}" title="alphabets only cannot be longer than 10" >	
+		        	</div>
+		        	<div class="col-lg-6 col-md-6">
+		        	<label id="label1">LastName</label><br>
+		        	<input type="text"id="secondname"required pattern="[A-Za-z]{1,10}" title="alphabets only cannot be longer than 10" >
+		        	</div>
+		        </div>
+				<br>
+			  <div>
+			  	<label id="label2">Email</label><br>
+				<input type="text" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="pattern should be eg:praveen97@gmail.com">
+			  </div>
+			  <br>
+			    <div class="row">
+		        	<div class="col-lg-6 col-md-6">
+		        	<label id="label3">Password</label><br>
+		        	<input type="password" id="password" name="" required pattern="[A-Za-z0-9]{8,12}" title="Length should be of 8-12 only and atleast one numeric">
+		        	<!-- <span id="message1"></span> -->
+		        	<!--  -->
+		        	</div>
+		        	<div class="col-lg-6 col-md-6">
+		        	<label id="label4">ConfirmPassword</label><br>
+		        	<input type="password" id="confirmpassword" required pattern="[A-Za-z0-9]{8,12}" title="Length should be of 8-12 only and atleast one numeric">
+		        <!-- 	<span id="message2"></span> -->
+		        	<!--  -->
+		        	</div>
+		        </div>
+			    <br>
+			    <div>
+	 	         <input type="checkbox" id="check1" name="checkbox1" value="terms">
+	 	         <label for="checkbox1" id="check2">i agree to the<a href=""> terms and conditions</a></label>
+	            </div>
+	            <div class="form-group">
+                   <input type="submit" name="" value="Register" id="buttonright">
+                </div>
+			</form>
+			</div>
+		</div>
+
+		<div class="left">
+			
+			<div class="container" id="container1">
+				<h2>INFORMATION</h2>
+				<p>
+					Generating random paragraphs can be an excellent way for writers to get their creative flow going at the beginning of the day. The writer has no idea what topic the random paragraph will be about when it appears. This forces the writer to use creativity to complete one of three common writing challenges. The writer can use the paragraph as the first one of a short story and build upon it. A second option is to use the random paragraph somewhere in a short story they create.
+				</p>
+				<p>
+					The third option is to have the random paragraph be the ending paragraph in a short story. No matter which of these challenges is undertaken, the writer is forced to use creativity to incorporate the paragraph into their writing.
+				</p>
+
+                <button class="btn btn-lg btn-danger">Have An Account</button>
+
+				
+			</div>
+		</div> 
+
+
+	</div>
+	<script src="form2.js">
+</script>
+
+</body>
+</html>

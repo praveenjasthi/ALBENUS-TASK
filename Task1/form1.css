@@ -1,0 +1,117 @@
+body
+{
+	background-image: url("https://farm9.staticflickr.com/8442/7962474612_bf2baf67c0.jpg");
+	background-size: cover;
+	width: 100%;
+}
+h2
+{
+	margin-left: 100px;
+	margin-top: 50px;
+	color: #c22134;
+}
+.container
+{
+	margin-top: 35px;
+	margin-right: 60px;
+}
+#label1
+{
+
+}
+/*input
+{
+	border-radius: 20px;
+	height: 40px;
+	border-color: black;
+}*/
+label
+{
+	color: #0345fc;
+
+}
+#gender
+{
+	border-radius: 20px;
+	height: 40px;
+	width: 190px;
+	border-color: black;
+}
+#option1
+{
+	padding-left: -5px;
+}
+#Star
+{
+	color: red;
+}
+/*#button
+{
+ margin-left: 200px;
+ border-radius: 20px;
+ width: 120px;
+ border-color: black;
+ background-color: red;
+}*/
+#date
+{
+	border-radius: 20px;
+	height: 40px;
+	width: 190px;
+	border-color: black;
+	
+}
+#number
+{
+	border-radius: 20px;
+	height: 40px;
+	border-color: black;
+}
+#firstname
+{
+	border-radius: 20px;
+	height: 40px;
+	border-color: black;
+}
+#lastname
+{
+	border-radius: 20px;
+	height: 40px;
+	border-color: black;
+}
+#email
+{
+	border-radius: 20px;
+	height: 40px;
+	border-color: black;
+}
+#password
+{
+	border-radius: 20px;
+	height: 40px;
+	border-color: black;
+}
+#confirmpassword
+{
+	border-radius: 20px;
+	height: 40px;
+	border-color: black;
+}
+span
+{
+	color: red;
+}
+
+#form
+{
+	margin-top: 30px;
+}
+#submit-button
+{
+	border-radius: 20px;
+	background-color: red;
+	border:none;
+	margin-left: 160px;
+	margin-top: 20px;
+}
+

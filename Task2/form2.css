@@ -1,0 +1,168 @@
+body
+{
+	background:#12e2c9;
+	font-family: 'Trebuchet MS';
+}
+h5{
+	color: white;
+	margin-top: 20px;
+}
+
+.main{
+	width: 1000px;
+	height:550px;
+	margin: 0 auto;
+	margin-top: 100px;
+	border: 1px solid black;
+	border-top: none;
+	border-bottom: none;
+}
+
+.main .right{
+	width:50%;
+	height:100%; 
+	float:right;
+	text-align: center;
+	border: 1px solid black;
+	background-color: #6365e6;
+	padding-top: 10px;
+
+
+}
+#container
+{
+	margin-top: 40px;
+}
+
+/*.left form input[type="submit"]:hover{
+	background: red;
+}
+*/
+
+.main .left
+{
+ background-image: url("https://farm9.staticflickr.com/8442/7962474612_bf2baf67c0.jpg" id="image");
+ background-size: cover;
+ width:50%;
+ height:100%;
+ float: left;
+ display: inline-flex;
+}
+#input1{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	background-color: #6365e6;
+	border-color: white;
+	width: 470px;
+}
+#input2{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	background-color: #6365e6;
+	border-color: white;
+	width: 470px;
+}
+#input3{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	background-color: #6365e6;
+	border-color: white;
+	width: 470px;
+}
+
+#Dropdown
+{
+width: 470px;
+height: 40px;
+border-top: none;
+border-left: none;
+border-right: none;
+border-color: white;
+background-color:#6365e6;
+
+/*background-color:grey;*/
+
+}
+span
+{
+	margin-right: 40px;
+	background-color: white;
+
+}
+#button
+{
+	margin-left: -350px;
+	height: 50px;
+	width:100px;
+	background: #a86632;
+	border:none;
+	border-radius: 10px;
+}
+
+p
+{
+	margin-left: -150px;
+	margin-top: 20px;
+}
+
+h6
+{
+	margin-right: 250px;
+	color: white;
+}
+.span1
+{
+	border-radius: 50%;
+        width: 34px;
+        height: 30px;
+        padding: 10px;
+        background: #fff;
+        border: 3px solid #000;
+        color: #000;
+        text-align: center;
+}
+.span3
+{
+	border-radius: 50%;
+        width: 34px;
+        height: 30px;
+        padding: 10px;
+        background: #fff;
+        border: 3px solid #000;
+        color: #000;
+        text-align: center;
+}
+.span4
+{
+	border-radius: 50%;
+        width: 34px;
+        height: 30px;
+        padding: 10px;
+        background: #fff;
+        border: 3px solid #000;
+        color: #000;
+        text-align: center;
+}
+.span5
+{
+	border-radius: 50%;
+        width: 34px;
+        height: 35px;
+        padding: 10px;
+        background: #fff;
+        border: 3px solid #000;
+        color: #000;
+        text-align: center;
+}
+.span2
+{
+	border-radius: 20px;
+	width: 100px;
+	height: 40px;
+}
+::placeholder{
+  color:black;
+}

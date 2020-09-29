@@ -1,0 +1,131 @@
+body
+{
+	background:#12e2c9;
+}
+h1{
+	color: blue;
+	margin-right: 130px;
+}
+
+.main{
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: 125px;
+	/*border: 1px solid black;*/
+	/*border-top: none;*/
+}
+
+.main .right{
+	width:50%;
+	height:100%; 
+	float:right;
+	text-align: center;
+	border: 1px solid black;
+	background-color: white;
+	padding-top: 10px;
+
+
+}
+#container
+{
+	margin-top: 40px;
+}
+
+.main .left
+{
+	background-color: #3281a8;
+	height: 100%;
+}
+
+h2
+{
+	margin-top: 20px;
+}
+
+p
+{
+	color: white;
+}
+
+#label1
+{
+	margin-right: 110px;
+}
+#label
+{
+	margin-right: 110px;
+}
+#label2
+{
+ margin-right: 400px;
+}
+
+#label3
+{
+	margin-right: 110px;
+
+}
+
+#label4
+{
+	margin-right: 60px;
+
+}
+#email
+{
+	margin-right: 180px;
+	width: 440px;
+	margin-left: 15px;
+	height: 40px;
+	border-radius: 5px;
+}
+
+#firstname
+{
+	
+	height: 40px;
+	border-radius: 5px;
+}
+
+#secondname
+{
+	
+	height: 40px;
+	border-radius: 5px;
+}
+#password
+{
+	
+	height: 40px;
+	border-radius: 5px;
+}
+#confirmpassword
+{
+	
+	height: 40px;
+	border-radius: 5px;
+}
+input
+{
+	border-color: #e0dada;
+}
+
+#check1{
+	margin-right: 0px;
+}
+#check2
+{
+	margin-right: 140px;
+}
+::placeholder{
+  color:black;
+}
+#buttonright
+{
+	border-radius: 10px;
+	width: 150px;
+	margin-left: -275px;
+	background-color: #0e41e8;
+	height: 40px;
+}

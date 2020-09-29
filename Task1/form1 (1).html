@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="form1.css" />
+</head>
+
+<body>
+    <h2>REGISTRATION FORM</h2>
+    <div class="container">
+        <form id="form">
+            <div class="row">
+                <div class="col-lg-3 col-md-4">
+                    <label>FirstName</label><br />
+                    <label id="Star">*</label><br />
+                    <input type="text" id="firstname" name="" /><br />
+                    <span id="message1"></span><br /><br />
+                    <!-- required pattern="[A-Za-z]{1,10}" title="alphabets only between 1-10"				 -->
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <label id="label1">LastName</label><br />
+                    <label id="Star">*</label><br />
+                    <input type="text" id="lastname" name="" />
+                    <span id="message2"></span><br /><br />
+                    <!-- required pattern="[A-Za-z]{1,10}" title="alphabets only between 1-10" -->
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-4">
+                    <label>GenderName</label><br />
+                    <label id="Star">*</label><br />
+                    <select id="gender">
+              <option value="gender" id="option1">Select</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Other">Other</option></select
+            ><br /><br />
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <label>Email</label><br />
+            <label id="Star">*</label><br />
+            <input type="text" id="email" name="" />
+            <span id="message3"></span><br /><br />
+            <!-- required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="pattern should be eg:praveen97@gmail.com"	 -->
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-4">
+            <label>Password</label><br />
+            <label id="Star">*</label><br />
+            <input type="password" id="password" name="" />
+            <span id="message4"></span> <br /><br />
+            <!-- required pattern="[A-Za-z0-9]{8,12}" title="Length should be of 8-12 only and atleast one numeric"> -->
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <label>ConfirmPassword</label><br />
+            <label id="Star">*</label><br />
+            <input type="password" id="confirmpassword" name="" />
+            <span id="message5"></span><br /><br />
+            <!-- required pattern="[A-Za-z0-9]{8,12}" title="Length should be of 8-12 only and atleast one numeric"> -->
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-4">
+            <label>DOB</label><br />
+            <label id="Star">*</label><br />
+            <input type="date" id="date" name="" /><br /><br />
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <label>Mobile</label><br />
+            <label id="Star">*</label><br />
+            <input type="text" id="number" name="" />
+            <span id="message6"></span><br /><br />
+            <!-- required pattern="[6-9]{1}[0-9]{9}" title="should start with 6-9 and remaing 9 digit with 0-9" -->
+          </div>
+        </div>
+        <div>
+          <input type="checkbox" id="checkbox" name="checkbox1" value="terms" />
+          <label for="checkbox1" id="labelcheckbox"
+            ><a href="">I accept the terms of use & private policy</a></label
+          >
+        </div>
+        <input
+          type="submit"
+          name=""
+          id="submit-button"
+          value="REGISTER"
+        /><br />
+        <a href="">Login</a>
+      </form>
+      <script type="text/javascript" src="form1.js"></script>
+    </div>
+  </body>
+</html>
